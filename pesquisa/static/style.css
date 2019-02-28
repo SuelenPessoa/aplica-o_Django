@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+.main.title{
+    color: red;
+}
+
+.main.listitem a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
