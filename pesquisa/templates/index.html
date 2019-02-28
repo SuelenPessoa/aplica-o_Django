@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Esta Funcionando</h1>
+    <h1>Aqui estão as enquetes abertas para serem respondidas!</h1>
+    <ul>        
+     {% for pergunta in perguntas %}
+      <li><a href="">{{ pergunta }}</a></li>
+      {% endfor %}
+    </ul>   
 </body>
 </html>
